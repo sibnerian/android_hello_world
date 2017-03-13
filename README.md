@@ -29,7 +29,7 @@ I did not have time to do any of the optional features because I left this until
 
 Here's a walkthrough of implemented user stories:
 
-
+![https://image.ibb.co/b4vUbF/android_hello_world_demo_1.gif](https://image.ibb.co/b4vUbF/android_hello_world_demo_1.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
