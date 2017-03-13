@@ -4,12 +4,32 @@
     android:layout_height="match_parent"
     tools:context=".HelloWorldActivity" >
 
-    <TextView
+    <Button
+        android:text="Save"
+        android:onClick="onAddItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        android:textSize="25sp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnAddItem" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/btnAddItem"
+        android:id="@+id/lvItems" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNewItem"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/btnAddItem"
+        android:contentDescription="Add Item"
+        android:hint="Add Item" />
 </RelativeLayout>
